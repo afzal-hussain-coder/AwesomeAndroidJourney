@@ -29,8 +29,17 @@ This repository contains a Kotlin program demonstrating basic functions and cont
 
 ## ▶️ How to Run
 
-Make sure Kotlin is installed on your machine.
+### 🔧 Prerequisites
+
+- ✅ Java JDK installed (check using `java -version`)
+- ✅ Kotlin Compiler installed (download from [Kotlin GitHub Releases](https://github.com/JetBrains/kotlin/releases))
+- ✅ Add Kotlin's `bin` folder to your **System PATH**  
+  (e.g., `C:\kotlin\bin` if you extracted the zip to `C:\kotlin`)
 
 ### Step 1: Compile the file
 ```bash
 kotlinc Day1_Kotlin_Basics.kt -include-runtime -d Day1_Kotlin_Basics.jar
+
+## Step 2 : Run Kotlin file
+```bsh
+java -jar Day1_Kotlin_Basics.jar
