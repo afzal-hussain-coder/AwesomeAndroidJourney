@@ -22,6 +22,14 @@ fun printOneToTen() {
     }
 }
 
+fun printEvenNumberOneToTen(){
+    for(i in 1..10){
+        if(i % 2 ==0){
+            println("Even Number is : $i")
+        }
+    }
+}
+
 fun main() {
     println("Add: " + add(5, 3))
     println("Is Even: " + isEven(4))
