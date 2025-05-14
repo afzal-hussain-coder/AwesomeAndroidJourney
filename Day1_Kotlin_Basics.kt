@@ -36,4 +36,5 @@ fun main() {
     println("Factorial: " + factorial(5))
     println("Max: " + maxOfThree(10, 25, 20))
     printOneToTen()
+    printEvenNumberOneToTen()
 }
